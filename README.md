@@ -9,7 +9,7 @@ Part of the  [iHGS-MHI-BLOCKS Algorithm](https://github.com/alvinlimfangchuen/iH
 To clone this repository and start exploring the this image processing algorithm on your local machine.
 
 ```bash
-git clone https://github.com/alvinlimfangchuen/iHGS-MHI-BLOCKS.git
+git clone https://github.com/alvinlimfangchuen/jpg2mat
 ```
 
 ### Prerequisites
