@@ -1,14 +1,20 @@
 
 %{
-- This program convert and Store iHGS-MHI-BLOCKS image into .mat format
-- This program process one gesture at time for each 100 classes
-- 2nd Image processing step of iHGS-MHI-BLOCKS algorithm
+Author: Alvin Lim Fang Chuen
+    Affiliation: Multimedia University, Melaka, Malaysia
+    Email: alvinlim.fangchuen@gmail.com
+    Project: in-air Signature Recognition using Bi-directional Recurrent Neural Network with Deep Convolutional Features
+    Descruption: Part of iHGS-MHI-BLOCKS custom image processing
+
+Notes:
+    - This program is designed to process only one sample of each class at a time.
+    - Required manually change the variable name for blockName and path of gesture , example given is G1, total number of gesture G1~G20
 
 
-Dataset inform:
-- 100 classes
-- 20 sample per class
-- G1 is gesture_1 refer to the 1st sample of a class
+Dataset information:
+    - 100 classes
+    - 20 sample per class
+    - G1 is gesture_1 refer to the 1st sample of a class
 %}
 
 
