@@ -37,7 +37,6 @@ for i=1:100
     disp("Processing......");
     block = zeros(224,224,blockSize,'uint8');
     
-    
     %Store image into block
     for x=1:size(fileList)
         getFilename = sprintf('Block_%d.jpg',x);
@@ -53,7 +52,6 @@ for i=1:100
     bname = blockName;
     
     movefile(bname,fname,'f');
-    
     
     
 end
