@@ -1,4 +1,3 @@
-
 %{
 Author: Alvin Lim Fang Chuen
     Affiliation: Multimedia University, Melaka, Malaysia
@@ -10,15 +9,13 @@ Notes:
     - This program is designed to process only one sample of each class at a time.
     - Required manually change the variable name for blockName and path of gesture , example given is G1, total number of gesture G1~G20
 
-
 Dataset information:
     - 100 classes
     - 20 sample per class
     - G1 is gesture_1 refer to the 1st sample of a class
 %}
 
-
-%Constant
+%Load Dataset
 blockName = 'G_1.mat';
 path = 'C:\Users\User\OneDrive\Documents\GitHub\Database\BLOCK_MHI_IMAGE\G1\';
 addpath(path);
@@ -47,7 +44,7 @@ for i=1:100
         block(:,:,x) = imread(getFilename);
     end
     
-    %Save Block MHI in .mat format
+    %Save Block MHI into .mat format
     fpath= 'C:\Users\User\OneDrive\Desktop\Unit Test\2_Generating Block MHI to mat\BLOCK_MHI_MAT\';
     count= sprintf('%d',i);
     fname= strcat(fpath,count);
